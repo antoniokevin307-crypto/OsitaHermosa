@@ -416,17 +416,7 @@ function displayFinalCards() {
   });
 
   // Agregar botón para ver la pantalla final con imagen después de un delay
-  setTimeout(() => {
-    const finalButton = document.createElement('div');
-    finalButton.className = 'final-button-wrapper';
-    finalButton.innerHTML = '<button class="final-view-btn">Ver mensaje final ❤️</button>';
-    const mainElement = document.querySelector('.final-main');
-    mainElement.appendChild(finalButton);
-
-    const finalViewBtn = document.querySelector('.final-view-btn');
-    finalViewBtn.addEventListener('click', showFinalImageScreen);
-  }, 100);
-}
+  
 
 function showFinalImageScreen() {
   finalScreen.classList.add('hidden');
@@ -457,3 +447,4 @@ document.addEventListener('keydown', (e) => {
     continueBtn.click();
   }
 });
+
