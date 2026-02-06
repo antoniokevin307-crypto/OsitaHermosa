@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>100 razones por las que te amo</title>
+
+  <!-- Tipografía minimalista -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- PANTALLA INICIAL -->
+  <div id="initialScreen" class="initial-screen">
+    <div class="initial-content">
+      <h2 class="initial-title">Las 100 razones por cual Te amo</h2>
+      <img id="coverImage" src="img/WhatsApp Image 2026-02-05 at 7.45.25 PM.jpeg" alt="Imagen de portada" class="cover-image">
+      <p class="tap-text">Toca la imagen para comenzar</p>
+    </div>
+  </div>
+
+  <!-- PANTALLA DE TARJETAS INTERACTIVAS -->
+  <div id="cardScreen" class="card-screen hidden">
+    <!-- Contenedor para tarjeta grande -->
+    <div class="card-container">
+      <div id="largeCard" class="large-card">
+        <div class="card-letter"></div>
+        <div class="card-content"></div>
+      </div>
+    </div>
+
+    <!-- Controles inferiores -->
+    <div class="card-controls">
+      <button id="skipBtn" class="control-btn skip-btn">← Atrás</button>
+      <div class="progress-bar">
+        <div id="progressFill" class="progress-fill"></div>
+      </div>
+      <button id="nextBtn" class="control-btn next-btn">Siguiente →</button>
+    </div>
+
+    <!-- Contenedor de partículas (corazones) -->
+    <div id="particlesContainer" class="particles-container"></div>
+  </div>
+
+  <!-- PANTALLA FINAL CON IMAGEN -->
+  <div id="finalImageScreen" class="final-image-screen hidden">
+    <div class="final-image-content">
+      <div class="final-image-wrapper">
+        <img id="finalImage" src="image.jpg" alt="Imagen final" class="final-image-photo">
+        <div class="final-image-overlay">
+          <h1 class="final-image-message">
+            Osita mía, no solo son cien razones<br/>
+            porque mi amor no cabe en una página.<br/>
+            <br/>
+            Te amo con mi alma,<br/>
+            esto es para ti,<br/>
+            siempre,<br/>
+            mi amor eterno.
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div id="finalImageParticles" class="particles-container"></div>
+  </div>
+
+  <!-- PANTALLA DE MENSAJE ESPECIAL -->
+  <div id="messageScreen" class="message-screen hidden">
+    <div class="message-container">
+      <h1 class="special-message">
+        Osita mía,<br/>
+        no solo son cien razones<br/>
+        porque mi amor no cabe en una página.<br/>
+        <br/>
+        Te amo con mi alma,<br/>
+        esto es para ti,<br/>
+        siempre,<br/>
+        <span style="font-weight: 600; font-size: 1.1em;">mi amor eterno.</span>
+      </h1>
+      <button id="continueBtn" class="continue-btn">Continuar</button>
+    </div>
+    <div id="messageParticles" class="particles-container"></div>
+  </div>
+
+  <!-- PANTALLA DE MENSAJE FINAL -->
+  <div id="finalScreen" class="final-screen hidden">
+    <header class="final-header">
+      <h1>
+        <span>Osita mía</span>, no solo son cien razones<br/>
+        porque mi amor no cabe en una página.<br/>
+        Te amo con mi alma.
+      </h1>
+    </header>
+
+    <main class="final-main">
+      <section class="grid" id="cards"></section>
+    </main>
+
+    <footer class="final-footer">
+      Hecho con todo mi amor 🤍
+    </footer>
+  </div>
+
+  <!-- JavaScript externo -->
+  <script src="script.js"></script>
+
+</body>
+</html>
