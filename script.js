@@ -414,9 +414,7 @@ function displayFinalCards() {
       card.classList.add('visible');
     }, index * 50);
   });
-
-  // Agregar botón para ver la pantalla final con imagen después de un delay
-  
+}
 
 function showFinalImageScreen() {
   finalScreen.classList.add('hidden');
@@ -429,6 +427,13 @@ function showFinalImageScreen() {
 // ============================================
 
 coverImage.addEventListener('click', startExperience);
+coverImage.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' || e.key === ' ') {
+    e.preventDefault();
+    startExperience();
+  }
+});
+
 nextBtn.addEventListener('click', nextCard);
 skipBtn.addEventListener('click', prevCard);
 continueBtn.addEventListener('click', () => {
