@@ -1,35 +1,39 @@
 const reasons = [
-  "Osita mía, tu ternura abraza mi alma.",
-  "Sonreír es inevitable cuando pienso en ti.",
-  "Iluminas mis días incluso en los momentos grises.",
-  "Tu voz es el refugio donde siempre quiero volver.",
-  "A tu lado todo cobra sentido.",
-  "Me haces sentir amado tal como soy.",
-  "Incluso en silencio, sé que me entiendes.",
-  "Amo profundamente cada parte de ti.",
-  "Nunca imaginé amar de esta manera.",
-  "Observo el mundo distinto desde que estás en mi vida.",
-  "Siempre estás presente en mis pensamientos.",
-  "Ojalá todos los días comiencen contigo.",
-  "Llenas mi corazón de paz.",
-  "Ocurre algo mágico cuando sonríes.",
-  "Sabes amar con el corazón abierto.",
-  "Ofreciste amor cuando más lo necesitaba.",
-  "Nada se compara a lo que siento por ti.",
+  /* Fila 1: O-S-I-T-A-M-I-A-N-O */
+  "Osita mía, eres mi alma gemela.",
+  "Siempre te veo feliz y eres mi sonrisa.",
+  "Infinitamente te amo cada día.",
+  "Tu amor completa todo en mí.",
+  "Amo profundamente quién eres tú.",
+  "Mi vida comienza cada día contigo.",
+  "Inspiras la mejor versión de mí mismo.",
+  "Adoro cada momento vivido a tu lado.",
+  "Nunca dejaré de amarte jamás.",
+  "Osita, eres mi destino marcado.",
+  /* Fila 2: S-O-L-O-S-O-N-C-I-E */
+  "Somos un amor verdadero y real.",
+  "Ofreces lo que siempre he buscado.",
+  "Loco estoy de amor por ti.",
+  "Osas con tu corazón sin medida.",
+  "Siempre juntos es mi único deseo.",
+  "Observo esperanza en tu mirada certera.",
+  "Nunca te soltaré de mi mano.",
   "Conectamos de una forma única.",
-  "Inspiraste la mejor versión de mí.",
-  "Eres mi lugar seguro.",
-  "No hay nadie como tú.",
-  "Respiro tranquilidad cuando estoy contigo.",
-  "Amarte es lo más natural que he hecho.",
-  "Zonas oscuras de mi vida se iluminaron por ti.",
-  "Obsesión bonita es pensarte.",
-  "Nunca me canso de elegirte.",
-  "Eres el amor que siempre soñé.",
-  "Siempre te elegiría a ti.",
-  "Porque contigo soy auténtico.",
-  "Ocupas un lugar eterno en mi corazón.",
-  "Razones sobran para amarte.",
+  "Ilusiones todas incluyen tu nombre.",
+  "Eres exactamente todo lo que necesito.",
+  /* Fila 3: N-R-A-Z-O-N-E-S-P-O */
+  "Nada se compara a lo que siento.",
+  "Resides completamente en mi alma.",
+  "Amo tu esencia, alma y ser.",
+  "Zozobra desaparece cuando te veo.",
+  "Ojalá envejezcamos juntos para siempre.",
+  "Nada existe sin tu presencia acá.",
+  "Eternamente estaremos juntos siempre.",
+  "Sinceramente te amo con todo ser.",
+  "Presencia tuya es mi mayor alegría.",
+  "Observo amor en cada detalle tuyo.",
+  /* Fila 4: R-Q-U-E-M-I-A-M-O-R */
+  "Razones sobran para amarte siempre.",
   "Quiero construir un futuro a tu lado.",
   "Un abrazo tuyo lo cura todo.",
   "Eres mi milagro cotidiano.",
@@ -37,72 +41,46 @@ const reasons = [
   "Imaginar mi vida sin ti ya no es opción.",
   "A tu amor le entregué mi corazón.",
   "Mi paz tiene tu nombre.",
-  "Observo amor en cada detalle tuyo.",
+  "Oto sentido tiene la vida sin ti.",
   "Reafirmo cada día que te amo.",
-  "No hay palabras suficientes para describirte.",
-  "Ofreces amor sin medida.",
-  "Cuidas mi corazón con ternura.",
-  "A tu lado el tiempo se detiene.",
-  "Brillas incluso sin darte cuenta.",
-  "Eres inmensamente especial para mí.",
-  "En cada latido estás tú.",
+  /* Fila 5: N-O-C-A-B-E-E-N-U-N */
   "Nunca me sentí tan pleno.",
-  "Una vida no basta para amarte.",
-  "No hay dudas cuando se trata de ti.",
-  "Amo quién soy cuando estoy contigo.",
-  "Porque lo nuestro es infinito.",
-  "Amarte es mi decisión diaria.",
-  "Gracias por existir en mi vida.",
-  "Inmensamente agradezco tu amor.",
-  "Nunca sueltes mi mano.",
-  "A tu lado todo es hogar.",
-  "Te amo más de lo que puedo explicar.",
-  "Eres mi certeza.",
-  "Amo tu esencia, tu alma y tu corazón.",
-  "Mi vida es más bonita contigo.",
-  "Ojalá siempre seas tú.",
-  "Creo profundamente en nosotros.",
+  "Ojalá todos los días comiencen contigo.",
+  "Conecta tu alma con la mía.",
+  "Amas con tu corazón sin medida.",
+  "Brillas intensamente en mi vida diaria.",
+  "Eres mi verdadero amor eterno.",
+  "Eterno es el amor que siento por ti.",
+  "Noche y día pienso en ti siempre.",
+  "Undo los días sin verte contigo.",
+  "Nunca dejaré ir tu mano jamás.",
+  /* Fila 6: A-P-A-G-I-N-A-T-E-A */
+  "Amor sincero es lo que siento siempre.",
+  "Para siempre te amaré sin medida.",
+  "Abrazo el futuro si vienes conmigo.",
+  "Giardina mi alma solo tu presencia.",
+  "Iré contigo a donde sea necesario.",
+  "Nacemos juntos en cada amanecer.",
+  "Ardo en fuego de amor por ti.",
+  "Te amaré sin fin ni término.",
+  "Eres la respuesta exacta de mi alma.",
+  "Afortunado me siento cada día.",
+  /* Fila 7: M-O-C-O-N-M-I-A-L-M */
+  "Mi corazón late solo por ti.",
   "Observo esperanza en tu mirada.",
-  "Nunca dejaré de amarte.",
-  "Mi corazón te pertenece.",
-  "Incondicionalmente estoy para ti.",
-  "A tu amor me entrego por completo.",
-  "Libre me siento cuando estoy contigo.",
-  "Mi alma te reconoce.",
-  "Amarte es mi destino.",
-  "Eres mi promesa más bonita.",
-  "Siempre quiero cuidarte.",
-  "Todo lo que soy nace del amor que te tengo.",
-  "Obsesión sana es elegirte.",
-  "Esto lo hice con todo mi corazón.",
-  "Solo tú inspiras este amor.",
-  "Para siempre quiero caminar contigo.",
-  "A tu lado quiero todo.",
-  "Real es lo que siento por ti.",
-  "Amor como el nuestro no se acaba.",
-  "Tu amor me sostiene.",
-  "Infinito es lo que siento por ti.",
-  "Siempre serás tú.",
-  "Inmensamente feliz contigo.",
-  "Eres mi elección diaria.",
-  "Mi lugar seguro eres tú.",
-  "Porque te amo con el alma.",
-  "Resides en cada parte de mí.",
-  "Eres mi todo.",
-  "Mi amor es completamente tuyo.",
-  "Inevitable fue amarte.",
-  "Amor puro es el que siento por ti.",
-  "Mi vida tiene tu nombre.",
-  "Ojalá nunca olvides cuánto te amo.",
-  "Razones sobran, y aun así me faltan.",
-  "Eres mi amor eterno.",
-  "Todo lo que soy te pertenece.",
-  "En cada sueño estás tú.",
-  "Reafirmo que te amaré siempre."
+  "Cuarenta razones tengo en tu sonrisa.",
+  "Osita, eres mi promesa más bonita.",
+  "Nunca imaginé amar de esta manera.",
+  "Mi mundo gira alrededor tuyo.",
+  "Increíble es lo que sentimos juntos.",
+  "Amo cada segundo junto a ti.",
+  "Lindo es amar como nosotros amamos.",
+  "Mi felicidad es verte feliz.",
+  "Alma mía, te amo para siempre."
 ];
 
-// Array de imágenes (100 imágenes para cada razón)
-const images = [
+// Array de imágenes - se duplican para tener 100
+const baseImages = [
   "img/WhatsApp Image 2026-02-05 at 7.45.25 PM.jpeg",
   "img/WhatsApp Image 2026-02-05 at 7.45.25 PM (1).jpeg",
   "img/WhatsApp Image 2026-02-05 at 7.45.26 PM.jpeg",
@@ -122,88 +100,14 @@ const images = [
   "img/WhatsApp Image 2026-02-05 at 7.45.28 PM (1).jpeg",
   "img/WhatsApp Image 2026-02-05 at 7.45.28 PM (2).jpeg",
   "img/WhatsApp Image 2026-02-05 at 7.45.28 PM (3).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.28 PM (4).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.28 PM (5).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.28 PM (6).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.29 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.29 PM (1).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.29 PM (2).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.29 PM (3).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.29 PM (4).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.29 PM (5).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.30 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.30 PM (1).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.30 PM (2).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.30 PM (3).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.30 PM (4).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.31 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.31 PM (1).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.31 PM (2).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.31 PM (3).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.31 PM (4).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.31 PM (5).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.32 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.32 PM (1).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.32 PM (2).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.32 PM (3).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.32 PM (4).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.32 PM (5).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.33 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.33 PM (1).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.33 PM (2).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.33 PM (3).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.33 PM (4).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.34 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.35 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.35 PM (1).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.35 PM (2).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.35 PM (3).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.35 PM (4).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.36 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.36 PM (1).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.36 PM (2).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.36 PM (3).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.36 PM (4).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.37 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.37 PM (1).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.37 PM (2).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.37 PM (3).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.38 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.38 PM (1).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.38 PM (2).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.38 PM (3).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.38 PM (4).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.39 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.39 PM (1).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.39 PM (2).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.39 PM (3).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.39 PM (4).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.40 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.40 PM (1).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.40 PM (2).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.40 PM (3).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.40 PM (4).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.41 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.41 PM (1).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.41 PM (2).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.42 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.42 PM (1).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.42 PM (2).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.42 PM (3).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.42 PM (4).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.42 PM (5).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.42 PM (6).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.42 PM (7).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.43 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.43 PM (1).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.43 PM (2).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.43 PM (3).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.43 PM (4).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.43 PM (5).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.43 PM (6).jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.44 PM.jpeg",
-  "img/WhatsApp Image 2026-02-05 at 7.45.44 PM (1).jpeg"
+  "img/WhatsApp Image 2026-02-05 at 7.45.28 PM (4).jpeg"
 ];
+
+// Duplicar imágenes para tener exactamente 100
+const images = [];
+for (let i = 0; i < 100; i++) {
+  images.push(baseImages[i % baseImages.length]);
+}
 
 let currentCardIndex = 0;
 
@@ -409,11 +313,34 @@ function displayFinalCards() {
     card.appendChild(content);
     container.appendChild(card);
 
+    // Agregar evento click para abrir modal
+    card.addEventListener('click', () => openCardModal(text, bgImage, text.charAt(0)));
+
     // Animar cards con delay
     setTimeout(() => {
       card.classList.add('visible');
     }, index * 50);
   });
+}
+
+function openCardModal(message, backgroundImage, letter) {
+  const modal = document.getElementById('cardModal');
+  const modalImage = document.getElementById('modalCardImage');
+  const modalLetter = document.getElementById('modalCardLetter');
+  const modalMessage = document.getElementById('modalCardMessage');
+  
+  modalImage.style.backgroundImage = `url('${backgroundImage}')`;
+  modalLetter.textContent = letter;
+  modalMessage.textContent = message;
+  
+  modal.classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeCardModal() {
+  const modal = document.getElementById('cardModal');
+  modal.classList.add('hidden');
+  document.body.style.overflow = 'auto';
 }
 
 function showFinalImageScreen() {
@@ -425,6 +352,21 @@ function showFinalImageScreen() {
 // ============================================
 // EVENT LISTENERS
 // ============================================
+
+// Modal listeners
+const cardModal = document.getElementById('cardModal');
+const cardModalClose = document.querySelector('.card-modal-close');
+const cardModalOverlay = document.querySelector('.card-modal-overlay');
+
+cardModalClose.addEventListener('click', closeCardModal);
+cardModalOverlay.addEventListener('click', closeCardModal);
+
+// Cerrar modal con ESC
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && !cardModal.classList.contains('hidden')) {
+    closeCardModal();
+  }
+});
 
 coverImage.addEventListener('click', startExperience);
 coverImage.addEventListener('keydown', (e) => {
